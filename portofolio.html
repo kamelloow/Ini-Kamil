@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Fedya Jalilah Kamil Winola</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ==================== NAVBAR ==================== -->
+  <nav>
+    <div class="container">
+      <a href="index.html" class="nav-brand">Kamil</a>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="portofolio.html">Portfolio</a></li>
+        <li><a href="cv.html">CV</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==================== MODAL LIGHTBOX ==================== -->
+  <div id="imageModal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <img id="modalImage" src="" alt="Preview">
+    </div>
+  </div>
+
+  <!-- ==================== PORTFOLIO SECTION ==================== -->
+  <section class="section">
+    <div class="container">
+      <h1 class="page-title">Portfolio & Proyek</h1>
+      
+      <!-- Projects Grid -->
+      <div class="portfolio-grid">
+        <!-- Project 1: Pakaiin -->
+        <div class="portfolio-card">
+          <div class="portfolio-card-content">
+            <h3>Website Pakaiin</h3>
+            <p>Sebuah website e-commerce yang dirancang untuk memudahkan pencarian dan pembelian pakaian dengan interface yang user-friendly dan responsive design.</p>
+            <a href="https://pakaiin.vercel.app/" target="_blank" class="portfolio-link">Kunjungi Website →</a>
+          </div>
+        </div>
+
+        <!-- Project 2: S.id Shop -->
+        <div class="portfolio-card">
+          <div class="portfolio-card-content">
+            <h3>S.id Shop</h3>
+            <p>Platform toko online yang menyediakan berbagai produk pilihan dengan sistem pembayaran yang aman dan pengiriman terpercaya ke seluruh Indonesia.</p>
+            <a href="https://s.id/kloveshop" target="_blank" class="portfolio-link">Kunjungi Website →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate Section -->
+      <div class="certificate-section">
+        <h2 class="certificate-title">Sertifikat & Penghargaan</h2>
+        
+        <div class="certificate-grid">
+          <!-- Certificate 1 -->
+          <div class="certificate-card">
+            <img src="https://i.ibb.co.com/fVGPLV3G/IT-Essentials-certificate-carameldhmill27-gmail-com-93432839-bf2d-46cd-9df0-2a83938f60c3.png" alt="Cisco Networking Academy Certificate" class="certificate-image" style="cursor: pointer;">
+            <div class="certificate-card-content">
+              <h3>Cisco Networking Academy</h3>
+            </div>
+          </div>
+
+          <!-- Certificate 2 -->
+          <div class="certificate-card">
+            <img src="https://i.ibb.co.com/69vs4NZ/ey-Ju-YW1l-Ijoi-Rm-Vke-WEg-Sm-Fsa-Wxha-CBLYW1pb-CBXa-W5vb-GEi-LCJjb3-Vyc2-Ui-Oi-Jt-Yy-Is-Im-Rvbm9y-Ijo.jpg" alt="Hour of Code Certificate" class="certificate-image" style="cursor: pointer;">
+            <div class="certificate-card-content">
+              <h3>Hour of Code</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="sript.js"></script>
+</body>
+</html>
